@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Education</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-100 text-gray-700">
+
+<div class="flex min-h-screen">
+
+  <!-- Sidebar -->
+  <div class="w-72 bg-white border-r hidden lg:flex flex-col">
+
+    <!-- Image -->
+    <div>
+      <img src="https://cdn.marvel.com/content/2x/005smp_com_mas_mob_03_3.jpg"
+           class="h-40 w-full object-cover">
+    </div>
+
+    <!-- Logo -->
+    <div class="p-6 border-b flex items-center gap-4">
+      <div class="w-12 h-12 bg-blue-100 text-blue-700 rounded-xl flex items-center justify-center font-bold">
+        EF
+      </div>
+      <div>
+        <div class="font-semibold text-gray-900">Education</div>
+        <div class="text-sm text-gray-500">Smart Learning</div>
+      </div>
+    </div>
+
+    <!-- Profile -->
+    <div class="p-6 border-b flex items-center gap-4">
+      <div class="w-12 h-12 bg-blue-100 text-blue-700 rounded-xl flex items-center justify-center font-bold">
+        P
+      </div>
+      <div>
+        <div class="font-semibold text-gray-900">Panha</div>
+        <div class="text-sm text-gray-500">Student</div>
+      </div>
+    </div>
+
+    <!-- Menu -->
+    <div class="flex-1 p-4 space-y-2">
+
+      <a href="Home.html" class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-blue-50">
+        <i class="fas fa-home"></i>
+        <div>Home</div>
+      </a>
+
+      <a href="course.html" class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-blue-100">
+        <i class="fas fa-book"></i>
+        <div>Courses</div>
+      </a>
+
+      <a href="exercise.html" class="flex items-center gap-3 px-4 py-3  bg-blue-50 text-blue-700 rounded-lg hover:bg-blue-50">
+        <i class="fas fa-dumbbell"></i>
+        <div>Exercises</div>
+      </a>
+
+      <a href="library.html" class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-blue-50">
+        <i class="fas fa-book-open"></i>
+        <div>Library</div>
+      </a>
+
+    </div>
+  </div>
+
+  <div class="flex-1 p-6">
+
+    <div class="flex flex-col md:flex-row justify-between items-center mb-8">
+      <div>
+        <div class="text-3xl font-bold text-gray-900">Hello, Panha</div>
+        <div class="text-gray-500">Learn something new today</div>
+      </div>
+      <div class="relative mt-4 md:mt-0 w-full md:w-96">
+        <i class="fas fa-search absolute left-4 top-1/2 -translate-y-1/2 text-gray-400"></i>
+        <input
+          type="text"
+          placeholder="Search courses..."
+          class="w-full pl-12 py-3 rounded-full border focus:ring-2 focus:ring-blue-300">
+      </div>
+    </div>
+
+    <div>
+      <div class="text-xl font-bold mb-4">Exercises</div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg cursor-pointer flex items-center gap-4">
+          <div class="w-12 h-12 bg-orange-100 text-orange-700 rounded-xl flex items-center justify-center text-xl">
+            <i class="fas fa-dumbbell"></i>
+          </div>
+          <div>
+            <div class="font-semibold text-gray-900">HTML Quiz</div>
+            <div class="text-sm text-gray-500">Test your HTML knowledge</div>
+          </div>
+        </div>
+
+        <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg cursor-pointer flex items-center gap-4">
+          <div class="w-12 h-12 bg-blue-100 text-blue-700 rounded-xl flex items-center justify-center text-xl">
+            <i class="fas fa-brain"></i>
+          </div>
+          <div>
+            <div class="font-semibold text-gray-900">CSS Challenges</div>
+            <div class="text-sm text-gray-500">Practice styling exercises</div>
+          </div>
+        </div>
+
+        <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg cursor-pointer flex items-center gap-4">
+          <div class="w-12 h-12 bg-purple-100 text-purple-700 rounded-xl flex items-center justify-center text-xl">
+            <i class="fas fa-code"></i>
+          </div>
+          <div>
+            <div class="font-semibold text-gray-900">JavaScript Tasks</div>
+            <div class="text-sm text-gray-500">Small coding exercises</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
